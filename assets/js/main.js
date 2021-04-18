@@ -70,7 +70,7 @@ sr.reveal('.skills__img .img2', {delay: 600})
 sr.reveal('.skills__img .img3', {delay: 800})
 sr.reveal('.skills__img .img4', {delay: 1000})
 sr.reveal('.skills__img .img5', {delay: 1200})
-sr.reveal('.skills__img .img6', {delay: 400})
+
 
 /*SCROLL PORTFOLIO*/
 sr.reveal('.portfolio__img', {interval: 200})
