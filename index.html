@@ -15,7 +15,7 @@
 
     <title>Sara Rua - Portfolio</title>
     <php
-    include 'sendbymail.php';
+    include '../sendbymail.php';
     ?>
 </head>
 <body>
@@ -254,10 +254,10 @@
 
                 <form name="frmContacto" method="POST" action="assets/php/sendbymail.php" class="contact__form">
                     <div class="contact__inputs">
-                        <input type="text" name="nombre" placeholder="Name" class="contact__inputs">
-                        <input type="email" name="email" placeholder="Email" class="contact__inputs">
+                        <input type="text" name="nombre" placeholder="Name" class="contact__input">
+                        <input type="email" name="email" placeholder="Email" class="contact__input">
                     </div>
-                    <textarea name="mensaje" id="" cols="0" rows="10" class="contact__inputs" placeholder="Mensaje"></textarea>
+                    <textarea name="mensaje" id="" cols="0" rows="10" class="contact__input" placeholder="Mensaje"></textarea>
                     <input type="submit" value="Send" class="contact__button">
                 </form>
             </div>
