@@ -6,8 +6,7 @@
     --header-height: 3rem;
     --font-medium: 500;
 }
-/* COLOR VARIABLES
-============================================= */
+/*==== COLOR VARIABLES ====*/
 :root{
     --color2: #48ADF1;
     --color1: #c6bdea;
@@ -21,8 +20,6 @@
     --dark-color: #21243f;
     --text-color: #697477;
 }
-
-
 
 /*===== Fuente y tipografia =====*/
 :root{
@@ -260,7 +257,7 @@ img{
     color: var(--first-color);
 }
 
-/* ===== SKILLS =====*/
+/* ===== SKILLS & STUDIES=====*/
 .skills__container{
     row-gap: 2rem;
 }
@@ -288,7 +285,6 @@ img{
     border-radius: .5rem;
     position: absolute;
 }
-
 
 /* ===== PORTFOLIO =====*/
 .portfolio{
@@ -352,7 +348,7 @@ img{
     margin-bottom: var(--mb-4);
     border-radius: .5rem;
 }
-.contact__button, .download__button{
+.contact__button{
     display: block;
     background-color: var(--first-color);
     color: var(--white-color);
@@ -362,10 +358,18 @@ img{
     outline: none;
     font-size: var(--normal-font-size);
     cursor: pointer;
+    margin-left: auto;
 }
 
-.contact__button{
-    margin-left: auto;
+.download__button{
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: .75rem 2.5rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
 }
 
 /* ===== FOOTER=====*/
